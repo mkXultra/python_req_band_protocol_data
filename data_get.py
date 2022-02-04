@@ -2,7 +2,7 @@ from pyband import Client
 
 def main():
     # Step 1
-    test_net = "https://laozi-testnet4.bandchain.org/grpc-web"
+    test_net = "laozi-testnet4.bandchain.org/grpc-web"
     grpc_url = test_net # ex.laozi-testnet4.bandchain.org(without https://)
     c = Client(grpc_url)
 
